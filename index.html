@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta property="og:locale" content="en_US" />
-        <meta property="og:url" content="http://www.ubisdimensions.co," />
+        <meta property="og:url" content="http://www.ubisdimensions.com" />
         <meta property="og:site_name" content="Ubi's Dimensions" />
         <meta property="og:title" content="Play Ubi's Dimensions" />
         <meta property="og:description" content="Ubi's Dimensions is a cute three-dimensional mind-twisting puzzle game." />
@@ -28,7 +28,6 @@
         <link rel="alternate" href="android-app://com.timikogames.ubisdimensions/">
         
         <meta http-equiv="Content-Language" content="en">
-
 
         <link href="https://fonts.googleapis.com/css?family=Muli:600|Open+Sans&display=swap" rel="stylesheet">
 		<style>
@@ -109,7 +108,10 @@
             }
             #footer {
                 text-align: center;
-                margin-bottom: 50px;
+                margin: 150px 0;
+            }
+            #footer a {
+                text-decoration: none;
             }
 
             @media (max-width: 600px) {
@@ -128,26 +130,6 @@
                 }
             }
         </style>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148956079-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-148956079-1');
-        </script>
-        <script>
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '507028106762611');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=507028106762611&ev=PageView&noscript=1"/></noscript>
 	</head>
 	<body>
         <div class="content">
@@ -160,7 +142,7 @@
 
             <div id="description">
                 <h2>Three-dimensional mind-twisting puzzle</h2>
-                <p>Alone in space and time. Lost in a weird multidimensional world. Looking for something. Everywhere and nowhere at the same time. Help Ubi solve the puzzle.</p>
+                <p>Alone in space and time. Lost in a weird multidimensional world. Looking for something. Everywhere and nowhere at the same time. Help Ubi to solve the puzzle.</p>
                 <p>Download now from the <a href="https://apps.apple.com/us/app/ubis-dimensions/id1469107559">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.timikogames.ubisdimensions">Google Play</a>.</p>
             </div>
 
@@ -168,18 +150,24 @@
                 <a href="https://apps.apple.com/us/app/ubis-dimensions/id1469107559"><img src="app-store.png" alt="Download from App Store"/></a>
                 <a href="https://play.google.com/store/apps/details?id=com.timikogames.ubisdimensions"><img src="google-play.png" alt="Download from Google Play"/></a>
             </div>
-
-            <div id="facebook-page"><div class="fb-page" data-href="https://www.facebook.com/ubisdimensions/" data-tabs="" data-width="300" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ubisdimensions/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ubisdimensions/">Ubi&#039;s Dimensions</a></blockquote></div></div>
             
-            <div id="footer">&copy; 2020 <a href="https://www.uova.fi">Uova</a>
-                <span>|</span>
-                <a href="mailto:contact@ubisdimensions.com">Contact</a>
-                <span>|</span>
-                <a href="https://www.uova.fi/privacy-policy.html">Privacy Policy</a>
+            <div id="footer">
+                <div>
+                    <img src="ubi-bottom.png" /><br />
+                </div>
+                <div style="margin-top: 40px;">
+                    &copy; 2023 <a href="https://www.uova.fi">Uova</a>
+                </div>
             </div>
 
         </div>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=1521696414543990&autoLogAppEvents=1"></script>
+        <div id="uova-other-apps" style="text-align: center; margin: 80px 0;">
+            <div>Like Ubi's Dimensions? Discover our other apps you'll love!</div>
+            <div style="display: flex; justify-content: center; gap: 30px; margin-top: 30px;">
+                <a href="https://www.ultralightapp.com"><img src="ultralight.png" alt="Ultralight: Photo Video Editor" width="80" height="80" /></a>
+                <a href="https://www.readaboo.app"><img src="readaboo.png" alt="Readaboo" width="80" height="80" /></a>
+                <a href="https://www.dragonmatchgame.com"><img src="dragonmatch.png" alt="Dragon Match!" width="80" height="80" /></a>
+            </div>
+        </div>
 	</body>
 </html>
